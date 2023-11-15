@@ -58,3 +58,4 @@ function p(n) {
 }
 
 console.log(array.filter((el) => p(el)));
+console.log(arrayName.filter(el) => el.firstName.charAt(0) == "n")

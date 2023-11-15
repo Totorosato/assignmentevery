@@ -133,11 +133,11 @@ function findLonestIncreasingSubsequence() {
     console.log(i);
     console.log(Subsequence);
 
-    if (Subsequence[i] > Subsequence[i + 1]) {
-      sub.splice(i, 1);
-      console.log(Subsequence);
-      continue;
-    }
+    // if (Subsequence[i] > Subsequence[i + 1]) {
+    //   sub.splice(i, 1);
+    //   console.log(sub);
+    //   continue;
+    // }
   }
-  // console.log(Subsequence);
+  console.log(sub);
 }
