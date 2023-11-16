@@ -8,10 +8,25 @@
   </head>
   <body>
     <div
-      style="border: solid, 1px, black; height: 800px; width: 500px"
-      id="el"
-    ></div>
-    <button>Нэмэх</button>
+      style="
+        height: 100px;
+        width: 600px;
+        border: solid, 1px, black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: cyan;
+      "
+    >
+      <input type="number" id="randomNumber1" disabled />
+      <input type="number" id="randomNumber2" disabled />
+      <input type="number" name="" id="result" />
+      <div class="checkBtn">
+        <button id="resultCheck" onclick="check()">resultCheck</button>
+        <button id="reset" onclick="reset()">Reset</button>
+      </div>
+    </div>
+
     <script src="addElement.js"></script>
   </body>
 </html>
