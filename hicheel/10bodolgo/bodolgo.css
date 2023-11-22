@@ -1,0 +1,14 @@
+.loveyou {
+  color: black;
+  font-size: 100px;
+}
+.clicked-loveyou {
+  font-size: 200px;
+  color: pink;
+}
+.circle_style {
+  border-radius: 100px;
+  background-color: cyan;
+  height: 50px;
+  width: 50px;
+}
